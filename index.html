@@ -32,6 +32,18 @@
       line-height: 1.7;
     }
 
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 130px;
+      padding: 15px;
+      margin-top: 15px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      font-size: 16px;
+      resize: vertical;
+    }
+
     button {
       width: 100%;
       padding: 16px;
@@ -48,6 +60,12 @@
     button:active {
       opacity: 0.8;
     }
+
+    #message {
+      margin-top: 15px;
+      color: #10a37f;
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -58,17 +76,37 @@
     <h1>ChatGPT連携ページ</h1>
 
     <p>
-      下のボタンからChatGPTを開けます。
+      ChatGPTに質問したい内容を入力してください。
     </p>
 
+    <textarea id="question" placeholder="ここに質問を入力してください"></textarea>
+
     <button onclick="openChatGPT()">
-      ChatGPTを開く
+      ChatGPTで質問する
     </button>
+
+    <div id="message"></div>
 
   </div>
 
   <script>
-    function openChatGPT() {
+    async function openChatGPT() {
+      const question = document.getElementById("question").value.trim();
+
+      if (!question) {
+        alert("質問を入力してください。");
+        return;
+      }
+
+      try {
+        await navigator.clipboard.writeText(question);
+        document.getElementById("message").textContent =
+          "質問をコピーしました。ChatGPTに貼り付けてください。";
+      } catch (error) {
+        document.getElementById("message").textContent =
+          "ChatGPTを開きます。質問をコピーして貼り付けてください。";
+      }
+
       window.open("https://chatgpt.com/", "_blank");
     }
   </script>
