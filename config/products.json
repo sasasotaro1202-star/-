@@ -1,0 +1,20 @@
+{
+  "budget_jpy": 400000,
+  "search_queries": [
+    "RTX 5080 ノート Core Ultra 9 32GB 1TB Lenovo 日本",
+    "RTX 5080 ノート Ryzen 9 32GB 1TB ASUS 日本",
+    "RTX 5080 ノート 32GB 1TB MSI 日本",
+    "RTX 5080 ノート 32GB 1TB Acer 日本",
+    "RTX 5080 ノート 32GB 1TB HP 日本",
+    "RTX 5070 Ti ノート 32GB 1TB Lenovo 日本",
+    "RTX 5070 Ti ノート 32GB 1TB ASUS 日本",
+    "RTX 5070 Ti ノート 32GB 1TB MSI 日本",
+    "RTX 5090 Laptop ノート 32GB 1TB 日本",
+    "RTX 5080 Laptop Amazon.co.jp ゲーミングノート",
+    "RTX 5070 Ti Laptop Amazon.co.jp ゲーミングノート"
+  ],
+  "allowed_domains": [
+    "lenovo.com","asus.com","hp.com","msi.com","acer.com",
+    "amazon.co.jp","rakuten.co.jp","yodobashi.com","biccamera.com","yamada-denkiweb.com"
+  ]
+}
