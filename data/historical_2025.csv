@@ -1,0 +1,6 @@
+observed_at,store,product,model,price_jpy,stock_status,event_type,source_url,notes
+2025-11-21 10:08 JST,Amazon,ASUS TUF Gaming A16 FA608UP,FA608UP-R7R5070A,219800,unknown,price_observation,https://note.com/mizugoro0489/n/n01ed3fc05a4f,公開記事の観測時刻。内部の価格変更時刻ではない
+2025-11-21 21:52 JST,Amazon,ASUS TUF Gaming A16 FA608UP,FA608UP-R7R5070A,219800,unknown,price_observation,https://note.com/utopia_pc/n/nf617ebb9eec3,公開記事の観測時刻。内部の価格変更時刻ではない
+2025-11-22 14:00 JST,Amazon,ASUS TUF Gaming A16 FA608UP,FA608UP-R7R5070A,219800,unknown,price_observation,https://ascii.jp/elem/000/004/356/4356081/,公開記事の更新時点
+2025-11-22 14:00 JST,Amazon,ASUS ROG Zephyrus G14 GA403WP,GA403WP-AI9R5070G,299800,unknown,price_observation,https://www.gizmodo.jp/article/amazon-blackfriday-2025-1122-2/,公開記事の観測時点
+2025-11-30 12:30 JST,Amazon,ASUS TUF Gaming A16 FA608UP,FA608UP-R7R5070A,219800,unknown,price_observation,https://ascii.jp/elem/000/004/356/4356081/,公開記事の更新時点
